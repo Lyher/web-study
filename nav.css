@@ -121,7 +121,10 @@ body {
     color: #da9400;
   }
   .code a{
-    margin: auto;
-    text-align: center;
+    text-decoration: none;
+  }
+  .code a h1{
+   color: black;
+   font-family: 'Roboto Condensed', sans-serif;
   }
   

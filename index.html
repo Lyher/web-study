@@ -1,181 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="lyherhomework" content="Homework" />
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Ubuntu:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@300&family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <title>Document</title>
-</head>
-<style>
-    table{
-        width: 500px;
-        text-align: right;
-        background: rgb(4, 4, 56);
-    } 
-    .input{
-        
-    }
-    h1{
-        font-size: 15px;
-    }
-    .input input,select{
-        width: 80%;
-        border-radius: 5px;
-        
-    }
-    .input form table tr td{
-        text-align: left;
-        padding-left: 30px;
-    }
-    .input table tr th h1,label{
-        color: yellow;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 15px;
-    }
-</style>
-<body>
-    <div class="input">
-    <form action="">
+  </head>
+  <body>
+    <!-- menu -->
+    <div class="container">
+      <div class="topnav" id="myTopnav">
+        <a href=""><img class="img" src="img/logo.png" alt=""></a>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Code</a>
+        <a href="#contact">Apps</a>
+        <a href="#about">lesson</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- body -->
+      <div class="box">
         <table>
-            <tr>
-                <td colspan="4" style="background-color: orange ;"><h1 style="color: white ;">Sign Up</h1></td>
-            </tr>
-            <tr>
-                <th><h1>First name</h1></th>
-                <td colspan="3"><input type="text" placeholder="FirstName"></td>
-            </tr>
-            <tr>
-                <th><h1>last name</h1></th>
-                <td colspan="3"><input type="text"></td>
-            </tr>
-            <tr>
-                <th><h1>Screen Name</th></h1>
-                <td colspan="3"><input type="text"></td>
-            </tr>
-            <tr>
-                <th><h1>Date of Birth</h1></th>
-                <td colspan="3"><input type="date" name="" id=""></td>
-            </tr>
-            <tr>
-                <th><h1>Gender</h1></th>
-                    <td colspan="3" ><input style="width:30px;"  type="radio" name="gender" id=""><label for="">Male</label>
-                    <input style="width:30px;" type="radio" name="gender" id=""><label for="">Female</label>
-                </label></td>
-            </tr>
-            <tr>
-                <th><h1>Country</h1></th>
-                <td colspan="3">
-                    <select name="" id="">
-                        <option value="">
-                            USA
-                        </option>
-                        <option value="">
-                            Cambodia
-                        </option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <th><h1>E-Mail</h1></th>
-                <td colspan="3"><input type="email" name="" id=""></td>
-            </tr>
-            <tr>
-                <th><h1>Phone</h1></th>
-                <td colspan="3"><input type="tel" name="" id=""></td>
-            </tr>
-            <tr>
-                <th><h1>password</h1></th>
-                <td colspan="3"><input type="password" name="" id=""></td>
-            </tr>
-            <tr>
-                <th><h1>Confirm password</h1></th>
-                <td colspan="3"><input type="password" name="" id=""></td>
-            </tr>
-            <tr>
-                <th></th>
-                <td cols pan="3"><input style="width:20px;" type="checkbox" name="" id=""><label for="">I agree to the Terms of Use</label></td>
-            </tr>
-            <tr>
-                <th colspan="4" style="background-color: orange;">
-                    <button style="background-color: rgb(56, 173, 56) ;">Submit</button>
-                    <button style="background-color: rgb(79, 79, 235);">Concel</button>
-                </th>
-            </tr>
+          <tr>
+            <td><h2>World Gaming</h2></td>
+          </tr>
+          <tr>
+            <td><h1>Demo <span>Coder</span></h1></td>
+          </tr>
+          <tr>
+            <td><h1>Match</h1></td>
+          </tr>
+          <tr>
+            <td><p>Match</p></td>
+          </tr>
         </table>
-    </form>
-</div>
-</body>
+      </div>
+
+
+    </div>
+    <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+    <div class="coder">
+      <div class="code">
+        <h1>My Web Show</h1>
+        <a href="HomeWork/homework1.html"><h1>HomeWork 1</h1></a>
+        <a href="HomeWork/homework2.html"><h1>HomeWork 2</h1></a>
+        <a href="HomeWork/homework3.html"><h1>HomeWork 3</h1></a>
+        <a href="HomeWork/homework4.html"><h1>HomeWork 4</h1></a>
+        <a href="HomeWork/homework5.html"><h1>HomeWork 5</h1></a>
+        <a href="RGB/rbg.html"><h1>RGB Color</h1></a>
+        <a href="table.html"><h1>Table</h1></a>
+      </div>
+
+    </div>
+  </body>
 </html>
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home work</title>
-</head>
-<style>
-    .table table{
-        border: 1px solid black;
-        width: 500px;
-    }
-    .table th,td{
-
-        border: 1px solid black;
-    }
-
-</style>
-<body >
-    <div class="table">
-    <table style="margin: auto;">
-        <tr>
-            <th colspan="2">Pizza Shop 2.0</th>
-            
-        </tr>
-        <tr>
-            <td>Name</td>
-            <td><input type="text" name="" id="">
-            </td>
-        </tr>
-        <tr>
-            <td>Pizza Topping</td>
-            <td><input type="radio" name="" id=""><label for="">Suprem</label><br>
-                <input type="radio" name="" id=""><label for="">Vegetarian</label><br>
-                <input type="radio" name="p" id=""><label for="">Hawaiian</label>
-            </td>
-        </tr>
-        <tr>
-            <td>Pizza Sauce</td>
-            <td><select>
-                <option value="">tomato</option>
-                <option value="">chili</option>
-                <option value="">ABC</option>
-            </select></td>
-        </tr>
-        <tr>
-            <td>Optional Extras</td>
-            <td>
-                <input type="checkbox" name="" id=""><label for="">Extra Chess</label>
-                <input type="checkbox" name="" id=""><label for="">Gluten Free base</label>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">delivery intruction:<br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td colsp  an="2"><input type="submit" value="Sender"></td>
-            </tr>
-    </table>
-</div>
-</body>
-</html> -->
