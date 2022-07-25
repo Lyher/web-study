@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.background{
+    margin: auto;
+    animation-name: rgb;
+    background-color: aqua;
+    width: 80%;
+    height: 400px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes rgb{
+    0%   {background-color:red;}
+    25%  {background-color:yellow}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+}
+.in{
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    width: 98.1%;
+    height: 92%;
+    margin: 10px;
+    float: none;
+}
+.hello{
+    width:100%;
+    float: left;
+  }
+  .o {
+    float:left;
+    margin-top:12px;
+    margin-left:11px;
+    width: 40px;
+    height: 40px;
+    background: #F6E59C;
+    border-radius:50px;
+    
+  }
