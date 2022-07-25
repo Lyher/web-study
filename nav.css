@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
   .box{
     float: left;
@@ -40,7 +40,7 @@ body {
     background-image:url(img/drstrang.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 450px;
 
   }
   .topnav {
@@ -110,4 +110,18 @@ body {
       text-align: left;
     }
   } 
+  .coder{
+    
+  }
+  .code{
+    margin: auto;
+    text-align: center;
+  }
+  .code h1{
+    color: #da9400;
+  }
+  .code a{
+    margin: auto;
+    text-align: center;
+  }
   
