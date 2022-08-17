@@ -1,0 +1,28 @@
+*{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+li{
+   width: 150px;
+   height: 150px;
+   margin: 10px 4px;
+   background-color: red;
+}
+.static{
+position: static;
+background-color: green;
+}
+.relative{
+position: relative;
+top: 20px;
+left: 20px;
+background-color: green;
+}
+.absolute{
+    position: absolute;
+    background-color: green;
+    top: 410px;
+    left: 70px;
+}
