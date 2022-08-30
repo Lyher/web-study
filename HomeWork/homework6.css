@@ -26,3 +26,11 @@ background-color: green;
     top: 410px;
     left: 70px;
 }
+.tr{
+    position: relative;
+    width: 120px;
+    height: 200px;
+    background-color: orange;
+    margin: 20px;
+    overflow: hidden;
+}
